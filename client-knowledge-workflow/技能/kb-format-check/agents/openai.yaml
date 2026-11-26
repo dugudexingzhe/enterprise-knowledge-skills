@@ -1,0 +1,4 @@
+interface:
+  display_name: "提交规范与格式预检"
+  short_description: "提供知识库材料整理示例，检查文件可读性、表格结构和图文解析风险"
+  default_prompt: "使用 $kb-format-check，结合已有资料和本次用途完成提交规范与格式预检，明确未核实范围。"

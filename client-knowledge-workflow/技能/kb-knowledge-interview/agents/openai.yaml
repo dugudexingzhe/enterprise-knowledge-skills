@@ -1,0 +1,4 @@
+interface:
+  display_name: "隐性知识挖掘与访谈"
+  short_description: "寻找微信回访等分散经验，围绕质检缺口访谈并整理带来源的FAQ候选"
+  default_prompt: "使用 $kb-knowledge-interview，结合已有资料和本次用途完成隐性知识挖掘与访谈，明确未核实范围。"

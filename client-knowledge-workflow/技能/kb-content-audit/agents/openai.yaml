@@ -1,0 +1,4 @@
+interface:
+  display_name: "内容与证据质检"
+  short_description: "检查六类业务资料、证照报告、照片与客户记录，生成有依据的补件单"
+  default_prompt: "使用 $kb-content-audit，结合已有资料和本次用途完成内容与证据质检，明确未核实范围。"

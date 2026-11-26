@@ -1,0 +1,4 @@
+interface:
+  display_name: "入库验收与更新交接"
+  short_description: "通过真实业务问题检查知识解析、回答与引用，区分预验收和平台实测"
+  default_prompt: "使用 $kb-acceptance，结合已有资料和本次用途完成入库验收与更新交接，明确未核实范围。"

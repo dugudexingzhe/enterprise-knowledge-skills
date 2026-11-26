@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业画像与材料规划"
+  short_description: "根据企业主营与使用场景，生成客户准备清单、行业重点和资料寻找路径"
+  default_prompt: "使用 $kb-client-plan，结合已有资料和本次用途完成企业画像与材料规划，明确未核实范围。"

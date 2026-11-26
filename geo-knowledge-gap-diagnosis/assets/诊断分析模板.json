@@ -1,0 +1,25 @@
+{
+  "request_sha256": "复制manifest.json中的request_sha256",
+  "reviewed_chunks": ["实际逐批读过的每个片段id；不得先抄索引充当已读"],
+  "questions": [
+    {
+      "id": "Q1",
+      "intent": "基于本问题分析用户在做什么决策",
+      "requirements": [
+        {
+          "id": "R1",
+          "key": "对象|适用条件|知识点；跨问题同义知识使用同一key",
+          "knowledge": "需要的具体知识",
+          "criteria": "能支持回答需要满足的条件，含适用对象、单位、范围、时间等",
+          "status": "无法判断",
+          "rationale": "分析理由；明确已知、缺口及不可读资料影响，不添加无来源事实",
+          "evidence": [],
+          "search_terms": ["已检索知识点", "同义表达"],
+          "recommendation": "向哪个角色补什么资料、必须包含哪些字段、何为可验收",
+          "priority": "P1"
+        }
+      ]
+    }
+  ],
+  "confirmations": []
+}
